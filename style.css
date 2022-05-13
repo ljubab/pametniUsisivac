@@ -67,6 +67,10 @@ body {
     overflow: hidden;
 }
 
+#home video {
+    filter: blur(5px);
+}
+
 #about {
     height: 100vh;
     overflow: hidden;
