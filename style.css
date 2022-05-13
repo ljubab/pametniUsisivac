@@ -67,6 +67,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to right, black, white);
 }
 
 #about > img {
