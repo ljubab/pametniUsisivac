@@ -126,7 +126,7 @@ body {
 #reviews {
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -135,10 +135,14 @@ body {
     flex-direction: column;
     border: 2px solid #000000;
     align-items: center;
+    justify-content: space-evenly;
     width: 500px;
+    height: 650px;
+    min-height: 650px;
     text-align: center;
     gap: 1rem;
     padding: 1rem;
+    background-color: #ffffff;
 }
 
 .user-review > img {
