@@ -71,6 +71,16 @@ body {
     filter: blur(5px);
 }
 
+#home .text-over-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
 #about {
     height: 100vh;
     overflow: hidden;
