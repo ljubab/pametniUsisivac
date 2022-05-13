@@ -22,7 +22,8 @@ body {
     align-items: center;
     justify-content: space-between;
 
-    background-color: #ffffff;
+    background-color: #000000;
+    color: #ffffff;
     position: fixed;
     right: 0;
     left: 0;
@@ -48,6 +49,11 @@ body {
 #header > ul a {
     text-decoration: none;
     color: inherit;
+}
+
+#header > ul a:hover {
+    color: #b5b5b5;
+    transition: 0.2s;
 }
 
 #wrapper {
