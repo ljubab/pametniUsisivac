@@ -162,3 +162,56 @@ body {
 .user-comment {
     font-size: 1.5rem;
 }
+
+#buy {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    border: 2px solid black;
+    display: flex;
+    padding: 3rem;
+}
+
+.product > img {
+    flex: 3;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+#buy-now {
+    background-color: #f04848;
+    border: none;
+    font-size: 3rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#ffffff;
+}
+
+.description {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+#buy-now:hover {
+    background-color: #f21313;
+}
+
+#buy-now:active {
+    background-color: #f70202;
+}
+
+.model-name {
+    font-size: 3rem;
+}
+
+.buy-specifications {
+    font-size: 1.2rem;
+}
