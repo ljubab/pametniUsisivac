@@ -168,18 +168,22 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
+    gap: 2rem;
 }
 
 .product {
+    flex: 1;
     border: 2px solid black;
     display: flex;
     padding: 3rem;
 }
 
 .product > img {
-    flex: 3;
+    flex: 2;
     max-width: 600px;
     max-height: 600px;
+    min-width: 100px;
+    min-height: 100px;
 }
 
 #buy-now {
@@ -194,11 +198,10 @@ body {
 }
 
 .description {
-    flex: 2;
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 500px;
 }
 
 #buy-now:hover {
