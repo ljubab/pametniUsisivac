@@ -179,22 +179,19 @@ section {
     height: 100vh;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    justify-content: space-between;
 }
 
 .product {
     flex: 1;
     border: 2px solid black;
     display: flex;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .product > img {
-    flex: 2;
-    max-width: 600px;
-    max-height: 600px;
-    min-width: 100px;
-    min-height: 100px;
+    width: 17.5rem;
+    height: 17.5rem;
 }
 
 #buy-now {
