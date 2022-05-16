@@ -9,7 +9,6 @@ function type() {
     let currentLocation = 0;
 
     function typewriter() {
-        console.log("gas");
         if(currentLocation < textForTyping.length) {
             elementForTyping.innerHTML += textForTyping[currentLocation++];
             setTimeout(typewriter, 60 * charactersPerMinute);
