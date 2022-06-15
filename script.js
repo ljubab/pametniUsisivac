@@ -1,4 +1,4 @@
-let textForTyping = "Lorem ipsum dolor sit.";
+let textForTyping = "Паметни усисивач - иновација будућности";
 let elementForTyping = document.querySelector(".text-over-video");
 
 let charactersPerMinute = 1.5;

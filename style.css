@@ -90,7 +90,7 @@ section {
     transform: translateY(-50%) translateX(-50%);
     color: #ffffff;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #about {
@@ -110,12 +110,9 @@ section {
 #about .specification {
     border: 3px solid #000000;
     border-radius: 1.2rem;
-    width: 20rem;
-    min-width: 20rem;
     text-align: center;
     font-size: 1.2rem;
     padding: 20px;
-    height: fit-content;
     background-color: #ffffff;
 }
 
@@ -126,13 +123,10 @@ section {
 }
 
 .specifications {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: space-around;
-    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 20px;
 }
 
 #reviews {
@@ -187,6 +181,7 @@ section {
     border: 2px solid black;
     display: flex;
     padding: 2rem;
+    height: 700px;
 }
 
 .product > img {
